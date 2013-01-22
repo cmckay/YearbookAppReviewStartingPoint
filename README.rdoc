@@ -1,9 +1,9 @@
 - Clone this starting point.
-- Add an initialize method to Student. Use it to dry up your controller methods.
-- Add a class method Student.fetch(section). Use it to dry up your controller methods even more.
-- Move presentation logic out of Student#introduce into the view templates (morning.html.erb and afternoon.html.erb).
-- Dry up repetition between the two views by creating a partial, _list_of_students.html.erb and rendering it from within the main templates.
-- Support another route, /students, which will respond properly to query strings ?section=pm or ?section=am at the end.
-- Enhance /students to show all students if no section query string parameter is given by the user.
+- Add an initialize method to `Student`. Use it to dry up your controller methods.
+- Add a class method `Student.fetch(section)`. Use it to dry up your controller methods even more.
+- Move presentation logic out of Student#introduce into the view templates (`morning.html.erb` and `afternoon.html.erb`).
+- Dry up repetition between the two views by creating a partial, `_list_of_students.html.erb` and rendering it from within the main templates.
+- Support another route, `/students`, which will respond properly to query strings `?section=pm` or `?section=am` at the end.
+- Enhance `/students` to show all students if no section query string parameter is given by the user.
 - Enhance the app so that students appear in a shuffled order each time your load any page.
-- Practice using query string parameters by hiding some Easter Eggs in the app. For example, if I go to /students?color=red the H1 tags should appear red.
+- Practice using query string parameters by hiding some Easter Eggs in the app. For example, if I go to `/students?color=red` the `h1` text should be red.
